@@ -22,20 +22,13 @@ void PrintNumber(int num1)
     Console.Write(num1 + " ");
 }
 
-void ShowLargestDigit(int digit1, int digit2)
-{
-    if (digit1 > digit2)
-    {
-        Console.Write("-> " + digit1);
-    }
-    else
-    {
-        Console.Write("-> " + digit2);
-    }
-}
-
-GetRandomNumber(number);
+int num = GetRandomNumber();
 PrintNumber(num);
 int firstDigit = GetFirstDigit(num);
+PrintNumber(firstDigit);
 int lastDigit = GetLastDigit(num);
-ShowLargestDigit(firstDigit, lastDigit);
+PrintNumber(lastDigit);
+Console.Write("-> " + firstDigit + lastDigit);
+
+
+

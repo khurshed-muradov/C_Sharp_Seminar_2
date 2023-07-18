@@ -16,7 +16,7 @@ int ResultOfDivision()
 }
 int resultnumber = ResultOfDivision();
 
-if (number1 / number2 == number2)
+if (number1 % number2 == 0)
 {
     Console.Write("Кратно!");
 }

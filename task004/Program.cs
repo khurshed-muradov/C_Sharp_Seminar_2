@@ -4,3 +4,9 @@
 // 46 -> Нет
 // 161 -> Да
 
+int MultiplyNumber()
+{
+    int multiplyNumber = int.Parse(Console.ReadLine());
+    return multiplyNumber;
+}
+int resultOfMultiplyNumber = MultiplyNumber;

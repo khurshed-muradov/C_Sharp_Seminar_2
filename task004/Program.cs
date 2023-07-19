@@ -4,9 +4,23 @@
 // 46 -> Нет
 // 161 -> Да
 
-int MultiplyNumber()
+int EnteredNumber()
 {
-    int multiplyNumber = int.Parse(Console.ReadLine());
-    return multiplyNumber;
+    int enteredNumber = int.Parse(Console.ReadLine());
+    return enteredNumber;
 }
-int resultOfMultiplyNumber = MultiplyNumber;
+Console.WriteLine("Введите число: ");
+
+int enteredNumber = EnteredNumber();
+
+int number1 = 7;
+int number2 = 23;
+
+if (enteredNumber % number1 == 0 && enteredNumber % number2 == 0)
+{
+    Console.Write("Да");
+}
+else
+{
+    Console.Write("Нет");
+}
